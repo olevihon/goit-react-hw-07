@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.listItem {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .listItem {
+    width: calc((100% - 32px) / 3);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .listItem {
+    width: calc((100% - 48px) / 4);
+  }
+}

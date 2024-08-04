@@ -1,0 +1,17 @@
+.inputLabel {
+  font-size: 18px;
+  color: black;
+}
+
+.input {
+  font-size: 18px;
+  color: black;
+  margin-top: 8px;
+  width: 300px;
+  height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  border: 1px solid darkgray;
+  border-radius: 4px;
+}

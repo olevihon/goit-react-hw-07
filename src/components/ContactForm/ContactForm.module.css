@@ -1,0 +1,54 @@
+.form {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 300px;
+  padding: 16px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.label {
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+.field {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+
+  font-size: 18px;
+  color: black;
+
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  border: 1px solid darkgray;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 4px;
+}
+
+.submitWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn {
+  cursor: pointer;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
